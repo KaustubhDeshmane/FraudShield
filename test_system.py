@@ -13,7 +13,6 @@ Validates:
 import os
 import json
 import pandas as pd
-import numpy as np
 
 from src.data_loader import load_creditcard_data, validate_dataset_schema, EXPECTED_FEATURE_COLUMNS
 from src.preprocessing import CreditCardPreprocessor
